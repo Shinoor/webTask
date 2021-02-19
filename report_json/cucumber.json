@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14289146100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.InitializeBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Update personal Information",
+        "description": "",
+        "id": "personal-information-updates;update-personal-information",
+        "after": [
+          {
+            "result": {
+              "duration": 12567069500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15911174200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291331500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Application Page Tittle automation practice",
+            "match": {
+              "location": "LoginSteps.application_Page_Tittle_automation_practice()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583202000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginSteps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Personal information updates",
+    "description": "",
+    "id": "personal-information-updates",
+    "keyword": "Feature",
+    "uri": "src/main/java/org/example/features/infoUpdates.feature"
+  }
+]

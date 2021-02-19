@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.641923">
+<testcase classname="Personal information updates" name="Update personal Information" time="43.641923">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle automation practice............................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
